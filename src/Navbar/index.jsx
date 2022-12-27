@@ -1,9 +1,23 @@
 import React, { Component } from 'react'
+import { Container, ContainerWrapper, Nav, NavCenter, Navleft, NavRight } from './style';
 
-export default class Navbar extends Component {
+class Navbar extends Component {
     render() {
         return (
-            <div>Navbar</div>
+            <div>
+                Navbar
+            </div>
+            // <Container>
+            //     <ContainerWrapper>
+            //         <Nav>
+            //             <Navleft></Navleft>
+            //             <NavCenter></NavCenter>
+            //             <NavRight></NavRight>
+            //         </Nav>
+            //     </ContainerWrapper>
+            // </Container>
         )
     }
 }
+
+export default Navbar;
