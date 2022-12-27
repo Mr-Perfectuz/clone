@@ -4,9 +4,9 @@ import { Container, ContainerWrapper, Nav, NavCenter, Navleft, NavRight } from '
 class Navbar extends Component {
     render() {
         return (
-            <div>
+            <Nav>
                 Navbar
-            </div>
+            </Nav>
             // <Container>
             //     <ContainerWrapper>
             //         <Nav>

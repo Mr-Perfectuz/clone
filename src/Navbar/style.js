@@ -10,7 +10,7 @@ const ContainerWrapper = styled.div`
 `
 
 const Nav = styled.div`
-    width: 100%;
+    width: 100px;
     height: 56px;
     color: blue;
     background-color: red;
